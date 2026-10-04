@@ -254,7 +254,7 @@ Resources/com.cleanspace.daemon.plist.template
 ```text
 Package.swift
 Sources/MacCleanUpApp/App.swift
-Sources/MacCleanUpApp/cleanspace-icon.png
+Sources/MacCleanUpApp/cleanspace-icon-rounded.png
 Sources/CleanSpaceDaemon/main.swift
 Resources/com.cleanspace.daemon.plist.template
 Scripts/install-daemon.sh
@@ -271,3 +271,7 @@ Scripts/uninstall-daemon.sh
 - 在干净用户账户中测试安装、升级、卸载和废纸篓恢复
 - 对不同 macOS 版本的 `launchctl bootstrap` 行为进行回归测试
 - 为后台设置增加图形化开关和最近一次运行报告展示
+
+## 安装应用
+
+推荐使用 `outputs/CleanSpace-1.1.0.dmg`：双击打开后，将 CleanSpace 拖入 **Applications（应用程序）** 文件夹即可完成安装。首次打开应用不会自动扫描，必须点击 **快速扫描** 或 **深度扫描** 后才会开始工作。

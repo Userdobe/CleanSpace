@@ -9,7 +9,7 @@ let package = Package(
         .executable(name: "CleanSpaceDaemon", targets: ["CleanSpaceDaemon"])
     ],
     targets: [
-        .executableTarget(name: "MacCleanUpApp", path: "Sources/MacCleanUpApp", resources: [.process("cleanspace-icon.png")]),
+        .executableTarget(name: "MacCleanUpApp", path: "Sources/MacCleanUpApp", resources: [.process("cleanspace-icon-rounded.png")]),
         .executableTarget(name: "CleanSpaceDaemon", path: "Sources/CleanSpaceDaemon")
     ]
 )
